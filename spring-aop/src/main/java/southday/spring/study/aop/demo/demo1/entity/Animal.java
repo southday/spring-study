@@ -1,4 +1,4 @@
-package southday.spring.study.aop.demo1.entity;
+package southday.spring.study.aop.demo.demo1.entity;
 
 /**
  * @author southday

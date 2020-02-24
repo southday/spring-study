@@ -1,7 +1,7 @@
-package southday.spring.study.aop.demo1.entity;
+package southday.spring.study.aop.demo.demo1.entity;
 
 import org.springframework.stereotype.Component;
-import southday.spring.study.aop.demo1.anno.Cache;
+import southday.spring.study.aop.demo.demo1.anno.Cache;
 
 /**
  * @author southday

@@ -1,4 +1,4 @@
-package southday.spring.study.aop.demo1.aspect;
+package southday.spring.study.aop.demo.demo1.aspect;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
@@ -24,7 +24,7 @@ import java.util.Map;
 public class CacheAspect {
 
     // 定义切入点：带有 Cache 注解的方法
-    @Pointcut("@annotation(southday.spring.study.aop.demo1.anno.Cache)")
+    @Pointcut("@annotation(southday.spring.study.aop.demo.demo1.anno.Cache)")
     private void cache(){}
 
     // 临时存储区

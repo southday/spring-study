@@ -1,4 +1,4 @@
-package southday.spring.study.aop.demo1.anno;
+package southday.spring.study.aop.demo.demo1.anno;
 
 import java.lang.annotation.*;
 

@@ -1,10 +1,10 @@
-package southday.spring.study.aop.demo1;
+package southday.spring.study.aop.demo.demo1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import southday.spring.study.aop.demo1.config.AnimalConfig;
-import southday.spring.study.aop.demo1.entity.Animal;
-import southday.spring.study.aop.demo1.entity.Cat;
+import southday.spring.study.aop.demo.demo1.config.AnimalConfig;
+import southday.spring.study.aop.demo.demo1.entity.Animal;
+import southday.spring.study.aop.demo.demo1.entity.Cat;
 
 /**
  * @author southday
