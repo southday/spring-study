@@ -1,4 +1,4 @@
-package southday.spring.study.aop.demo.demo1.config;
+package southday.spring.study.aop.demo.demo2.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * @date 2020/2/24
  */
 @Configuration
-@ComponentScan(basePackages = "southday.spring.study.aop.demo.demo1")
+@ComponentScan(basePackages = "southday.spring.study.aop.demo.demo2")
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-public class AnimalConfig {
+public class AppDemo2Config {
 }
