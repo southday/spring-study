@@ -1,4 +1,4 @@
-package southday.spring.study.aop.demo.dynamicproxy.jdk;
+package southday.spring.study.aop.dynamicproxy.jdk;
 
 import java.lang.reflect.Proxy;
 

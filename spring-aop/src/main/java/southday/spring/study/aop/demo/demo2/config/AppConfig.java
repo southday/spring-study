@@ -12,5 +12,5 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @ComponentScan(basePackages = "southday.spring.study.aop.demo.demo2")
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-public class AppDemo2Config {
+public class AppConfig {
 }

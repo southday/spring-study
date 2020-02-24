@@ -2,6 +2,7 @@ package southday.spring.study.aop.demo.demo2.entity;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import southday.spring.study.aop.demo.demo2.anno.Log;
 
@@ -12,7 +13,7 @@ import southday.spring.study.aop.demo.demo2.anno.Log;
  */
 @Component
 @Data
-@Accessors(chain = true)
+@Slf4j
 public class Student {
     private String name;
 
@@ -29,6 +30,10 @@ public class Student {
         } catch (Exception e) {
 
         }
-        System.out.println(name + " study course: " + course);
+        log.info("{} study course: {}", name, course);
+    }
+
+    public void swimming() {
+        log.info("{} swimming..", name);
     }
 }

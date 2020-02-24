@@ -1,4 +1,4 @@
-package southday.spring.study.aop.demo.dynamicproxy.cglib;
+package southday.spring.study.aop.dynamicproxy.cglib;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
